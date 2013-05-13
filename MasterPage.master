@@ -1,0 +1,43 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Final Project</title>
+        
+    <asp:ContentPlaceHolder ID="head" runat="server">
+     </asp:ContentPlaceHolder>
+    <link href="MasterCSS.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> 
+</head>
+<body>
+        <form id="form1" runat="server">
+         <div id="PageWrapper">
+
+    <div id="header">
+        <h1>Amy Sundell's Final Project for IS445</h1>
+        </div>
+               <div id="MainMenu">
+                   <nav>
+                                <asp:Menu ID="MainMenu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"  >
+                            </asp:Menu>
+                       </nav>
+                   </div>     
+             <div id="sitemap">      
+                   <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>  <br /><br />  
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                 </div>
+             <div id="tree">
+                <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>
+                         </div>
+                           
+            <div id="MainContent">
+              <asp:ContentPlaceHolder ID="cpMainContent" runat="server" ClientIDMode="Static" ViewStateMode="Inherit">
+             </asp:ContentPlaceHolder>
+                  </div>
+
+            </div>
+              </form>
+    </body>
+</html>
