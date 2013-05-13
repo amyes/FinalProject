@@ -6,12 +6,18 @@
     height:auto;  
 }
 
-#MainMenu{
+#PageWrapper {
+    background-color:#FFFFFF;
+    width:900px;
+    margin:auto;
+    height:auto;
+}
+#Menu1{
     background-color:#ff6a00;
     display:block;
     display:inline
 }
-#MainMenu ul.level1.selected {
+#Menu1 ul.level1.selected {
         display:block;
         background-color:#808080;
         margin-left:auto;
@@ -25,36 +31,13 @@
     float: left; 
     height:auto;
 }
-#SiteMapPath1 {
+#sitemap {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 900px;
     }
  
-h1 {
-    text-align: center;
-    font-weight: bold;
-    color: #000000;
-    font-size:x-large;
-}
-
-h2 {
-    text-align: center;
-    font-weight: bold;
-    color: #808080;
-    font-size: large;
-}
-
-
-h3 {
-    text-align: center;
-    text-decoration: none;
-    color: #003333;
-    font-size:large;
-    font-weight:bold;
-    
-}
  
 img{
     float:right;

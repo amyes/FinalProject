@@ -18,12 +18,13 @@
     <div id="header">
         <h1>Amy Sundell's Final Project for IS445</h1>
         </div>
-               <div id="MainMenu">
+               
                    <nav>
-                                <asp:Menu ID="MainMenu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"  >
+                                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"  >
                             </asp:Menu>
                        </nav>
-                   </div>     
+                      
+                    
              <div id="sitemap">      
                    <asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>  <br /><br />  
                     <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
