@@ -8,6 +8,8 @@
 
 #MainMenu{
     background-color:#ff6a00;
+    display:block;
+    display:inline
 }
 #MainMenu ul.level1.selected {
         display:block;
@@ -59,19 +61,3 @@ img{
     height:auto;
     width:auto;
 }
-a.email {
-    display: inline;
-    background-color: #808080;
-    font-style: italic;
-    text-align: center;
-    color: #003333;
-    text-transform: none;
-}
-
-
-ol.a {
-    display:block;
-    width:380px;
-    list-style-type:decimal;
-   }
- 
