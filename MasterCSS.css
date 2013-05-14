@@ -1,10 +1,4 @@
-﻿body
-{
-    background-color:#FFFFFF;
-    width:900px;
-    margin:auto;
-    height:auto;  
-}
+﻿
 
 #PageWrapper {
     background-color:#FFFFFF;
@@ -17,7 +11,7 @@
     display:block;
     display:inline
 }
-#Menu1 ul.level1.selected {
+#Menu1 ul.level2.selected {
         display:block;
         background-color:#808080;
         margin-left:auto;
@@ -36,7 +30,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     width: 900px;
-    }
+    float:left;
+        }
  
  
 img{

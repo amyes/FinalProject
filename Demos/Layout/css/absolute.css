@@ -1,5 +1,5 @@
 ﻿body {
-    width: 1000px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
@@ -8,7 +8,7 @@
 }
 
 header {
-    width: 1000px;
+    width: 500px;
     background-color: purple;
     text-align: center;
     color: white;
@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    width: 1000px;
+    width: 500px;
     background-color: #746366;
     text-align: center;
     color: white;
@@ -30,7 +30,7 @@ nav {
 
 article {
     background-color: pink;
-    width: 700px;
+    width: auto;
     text-align: center;
     color: white;
 }
@@ -44,18 +44,18 @@ article {
     }
 
 aside {
-    width: 300px;
+    width: auto;
     background-color: #808080;
     text-align: center;
     color: white;
     height: 340px;
     position: absolute;
-    left: 700px;
+    left: auto;
     top: 60px;
 }
 
 footer {
-    width: 1000px;
+    width: 500px;
     background-color: darkkhaki;
     height: 40px;
     text-align: center;

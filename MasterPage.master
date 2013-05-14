@@ -33,10 +33,10 @@
                 <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1"></asp:TreeView>
                          </div>
                            
-            <div id="MainContent">
+            <section id="MainContent">
               <asp:ContentPlaceHolder ID="cpMainContent" runat="server" ClientIDMode="Static" ViewStateMode="Inherit">
              </asp:ContentPlaceHolder>
-                  </div>
+                  </section>
 
             </div>
               </form>
