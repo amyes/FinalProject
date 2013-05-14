@@ -22,20 +22,7 @@
         <br />
     <fieldset>
         <legend>Room Information</legend>
-        Arrival Date:         Month:<select="required">
-                 <option>January</option>
-            <option>Febuary</option>
-            <option >March</option>
-            <option>April</option>
-            <option>May</option>
-            <option >June</option>
-            <option>July</option>
-            <option>August</option>
-            <option >September</option>
-            <option>October</option>
-            <option>November</option>
-            <option >December</option>
-                 </select>
+        Arrival Date:         <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
         Day:<select>
                  <option>1</option>
             <option>2</option>
